@@ -1,0 +1,347 @@
+[
+  {
+    "sender_id": "jitesh",
+    "slots": {
+      "group": null
+    },
+    "latest_message": {
+      "intent": {},
+      "entities": [],
+      "text": null,
+      "message_id": null,
+      "metadata": null
+    },
+    "latest_event_time": 1570001173.8381913,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1570001173.8381913,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      }
+    ],
+    "latest_input_channel": null,
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "jitesh",
+    "slots": {
+      "group": null
+    },
+    "latest_message": {
+      "intent": {
+        "name": "greet",
+        "confidence": 0.9191194176673889
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "greet",
+          "confidence": 0.9191194176673889
+        },
+        {
+          "name": "inform",
+          "confidence": 0.019736597314476967
+        },
+        {
+          "name": "speaker",
+          "confidence": 0.018513694405555725
+        },
+        {
+          "name": "abstract",
+          "confidence": 0.014398706145584583
+        },
+        {
+          "name": "recommend_session",
+          "confidence": 0.011549831368029118
+        },
+        {
+          "name": "thanks",
+          "confidence": 0.01070747897028923
+        },
+        {
+          "name": "length",
+          "confidence": 0.0034967907704412937
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.0024774675257503986
+        }
+      ],
+      "text": "hi"
+    },
+    "latest_event_time": 1570001174.3289099,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1570001173.8381913,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1570001173.9791102,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.9191194176673889
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.9191194176673889
+            },
+            {
+              "name": "inform",
+              "confidence": 0.019736597314476967
+            },
+            {
+              "name": "speaker",
+              "confidence": 0.018513694405555725
+            },
+            {
+              "name": "abstract",
+              "confidence": 0.014398706145584583
+            },
+            {
+              "name": "recommend_session",
+              "confidence": 0.011549831368029118
+            },
+            {
+              "name": "thanks",
+              "confidence": 0.01070747897028923
+            },
+            {
+              "name": "length",
+              "confidence": 0.0034967907704412937
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.0024774675257503986
+            }
+          ],
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "0b7f412236614fe7ac21dc5da8adbb5e",
+        "metadata": null
+      },
+      {
+        "event": "action",
+        "timestamp": 1570001174.2699432,
+        "name": "utter_greet",
+        "policy": "policy_1_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1570001174.2699432,
+        "text": "Hey! How are you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1570001174.3289099,
+        "name": "action_listen",
+        "policy": "policy_1_MemoizationPolicy",
+        "confidence": 1.0
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "jitesh",
+    "slots": {
+      "group": null
+    },
+    "latest_message": {
+      "intent": {
+        "name": "greet",
+        "confidence": 0.9191194176673889
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "greet",
+          "confidence": 0.9191194176673889
+        },
+        {
+          "name": "inform",
+          "confidence": 0.019736597314476967
+        },
+        {
+          "name": "speaker",
+          "confidence": 0.018513694405555725
+        },
+        {
+          "name": "abstract",
+          "confidence": 0.014398706145584583
+        },
+        {
+          "name": "recommend_session",
+          "confidence": 0.011549831368029118
+        },
+        {
+          "name": "thanks",
+          "confidence": 0.01070747897028923
+        },
+        {
+          "name": "length",
+          "confidence": 0.0034967907704412937
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.0024774675257503986
+        }
+      ],
+      "text": "hi"
+    },
+    "latest_event_time": 1570001252.201232,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1570001173.8381913,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1570001173.9791102,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.9191194176673889
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.9191194176673889
+            },
+            {
+              "name": "inform",
+              "confidence": 0.019736597314476967
+            },
+            {
+              "name": "speaker",
+              "confidence": 0.018513694405555725
+            },
+            {
+              "name": "abstract",
+              "confidence": 0.014398706145584583
+            },
+            {
+              "name": "recommend_session",
+              "confidence": 0.011549831368029118
+            },
+            {
+              "name": "thanks",
+              "confidence": 0.01070747897028923
+            },
+            {
+              "name": "length",
+              "confidence": 0.0034967907704412937
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.0024774675257503986
+            }
+          ],
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "0b7f412236614fe7ac21dc5da8adbb5e",
+        "metadata": null
+      },
+      {
+        "event": "action",
+        "timestamp": 1570001174.2699432,
+        "name": "utter_greet",
+        "policy": "policy_1_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1570001174.2699432,
+        "text": "Hey! How are you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1570001174.3289099,
+        "name": "action_listen",
+        "policy": "policy_1_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1570001252.053316,
+        "text": "fine",
+        "parse_data": {
+          "intent": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "entities": [],
+          "intent_ranking": [],
+          "text": "fine"
+        },
+        "input_channel": "rest",
+        "message_id": "a5cfc1b8942a4c9691248488cf2d8477",
+        "metadata": null
+      },
+      {
+        "event": "action",
+        "timestamp": 1570001252.1622508,
+        "name": "action_default_fallback",
+        "policy": "policy_2_FallbackPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "rewind",
+        "timestamp": 1570001252.1622508
+      },
+      {
+        "event": "action",
+        "timestamp": 1570001252.201232,
+        "name": "action_listen",
+        "policy": "policy_1_MemoizationPolicy",
+        "confidence": 1.0
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  }
+]
