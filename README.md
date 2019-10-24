@@ -1,4 +1,4 @@
-# Rasa-ChatHistory-Logger
+# Rasa ChatHistory Logger
 
 Chat history logger built for logging the conversations to json file using Custom Tracker Store
 
