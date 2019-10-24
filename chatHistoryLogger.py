@@ -6,6 +6,8 @@ from rasa.core.trackers import ActionExecuted, DialogueStateTracker, EventVerbos
 import logging
 import chatLogger ## module to write data to json file
 
+logger = logging.getLogger(__name__)
+
 class CustomTrackerStore(TrackerStore):
     """Stores conversation history"""
 
